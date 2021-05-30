@@ -1,0 +1,19 @@
+{
+  "name": "template-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "clean": "prettier -w ."
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0"
+  }
+}
