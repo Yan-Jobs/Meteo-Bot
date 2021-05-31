@@ -4,13 +4,15 @@
   "main": "index.js",
   "license": "GPL-3.0",
   "scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js",
-  "clean": "prettier -w ."
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "clean": "prettier -w ."
   },
   "dependencies": {
     "chalk": "^4.1.1",
-    "fs": "^0.0.1-security"
+    "discord.js": "discordjs/discord.js",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",

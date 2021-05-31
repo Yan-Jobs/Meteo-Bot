@@ -1,2 +1,2 @@
-language = "nodejs"
-run = "yarn dev"
+  language = "nodejs"
+run = "chmod +x node.sh && ./node.sh"
