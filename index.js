@@ -31,10 +31,14 @@ client.on("ready", () => {
       },
     ],
   });
+  client.guilds.cache.get("832244628329594910")?.commands.create({
+    name: "credits",
+    description: "Show the credits",
+  });
 });
 
 client.on("interaction", async (interaction) => {
-  if (interaction.commandName == "weather")
+  if (interaction.commandName == "weather") {
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${interaction.options[0].value}&units=metric&APPID=${client.config.api}`
     )
@@ -86,4 +90,13 @@ client.on("interaction", async (interaction) => {
           "<:YJ_error:845314543118844014>  An error occured. Please verify the name of the city."
         );
       });
+  } else if (interaction.commandName == "credits") {
+    let embed = new MessageEmbed()
+      .setTitle("Credits")
+      .setDescription(
+        "Thanks to [Icons8](https://icons8.com) for all the emojis !"
+      )
+      .setColor("GREEN");
+    await interaction.reply(embed);
+  }
 });
