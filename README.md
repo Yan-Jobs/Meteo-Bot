@@ -2,9 +2,9 @@
 
 # Template-JS
 
-[![CodeFactor](https://www.codefactor.io/repository/github/yan-jobs/template-js/badge)](https://www.codefactor.io/repository/github/yan-jobs/template-js)
-![](https://shields.io/github/license/Yan-Jobs/template-js)
-![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FYan-Jobs%2Ftemplate-js.svg?type=shield)
+[![CodeFactor](https://www.codefactor.io/repository/github/yan-jobs/meteo-bot/badge)](https://www.codefactor.io/repository/github/yan-jobs/meteo-bot)
+![](https://shields.io/github/license/Yan-Jobs/meteo-bot)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FYan-Jobs%2FMeteo-Bot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FYan-Jobs%2FMeteo-Bot?ref=badge_shield)
 ![](https://img.shields.io/discord/831251454655594506.svg?logo=discord&colorB=7289DA&label=Yan%27s%20Dev)
 
 ## Installation
@@ -19,11 +19,7 @@
 
 ## Contributors
 
-All of the contributors of this project are:
-
-      - My Cat (his name is Dakar),
-      - My egocentry,
-      - And that's all.
+Thanks to [Icons8](https://icons8.com) for all the emojis !
 
 ## License
 
