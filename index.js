@@ -40,7 +40,7 @@ client.on("ready", () => {
 client.on("interaction", async (interaction) => {
   if (interaction.commandName == "weather") {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${interaction.options[0].value}&units=metric&APPID=${client.config.api}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${interaction.options.get("city").value}&units=metric&APPID=${client.config.api}`
     )
       .then((response) => response.json())
       .then(async (data) => {
